@@ -1,0 +1,36 @@
+{
+  "name": "js-expert",
+  "version": "1.0.0",
+  "description": "Projeto da Semana JS Expert",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --experimental-modules --es-module-specifier-resolution=node server/index.js",
+    "test": "jest --no-cache",
+    "test:watch": "jest --no-cache --watchAll",
+    "test:coverage": "jest --no-cache --coverage test/unit",
+    "live-reload": "nodemon --experimental-modules --es-module-specifier-resolution=node server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasdksan/JS-expert.git"
+  },
+  "type": "module",
+  "engines": {
+    "node": "17"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucasdksan/JS-expert/issues"
+  },
+  "homepage": "https://github.com/lucasdksan/JS-expert#readme",
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "pino": "^7.8.0",
+    "pino-pretty": "^7.5.3"
+  }
+}
